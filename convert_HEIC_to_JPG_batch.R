@@ -5,6 +5,7 @@
 if (!requireNamespace("magick", quietly = TRUE)) install.packages("magick")
 library(magick)
 
+input_dir <- "(C:\Path\To\Your\HEIC_Folder)"
 # 1. Path settings ------------------------------------------------------------
 # Option A ─ hard-code your folder path:
 # input_dir <- r"(C:/Path/To/Your/HEIC_Folder)"      # single backslashes are fine in raw strings
