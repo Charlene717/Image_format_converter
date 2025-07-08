@@ -9,7 +9,7 @@ library(magick)
 
 # input_dir  <- "C:/Path/To/Your/HEIC_Folder"          # ← 修改為 HEIC 來源資料夾
 
-input_dir <- r"(C:/Path/To/Your/HEIC_Folder)"   # 直接把路徑複製貼上（單反斜線 OK）
+# input_dir <- r"(C:/Path/To/Your/HEIC_Folder)"   # 直接把路徑複製貼上（單反斜線 OK）
 input_dir <- readline(prompt = "請貼上資料夾完整路徑：\n")
 input_dir  <- gsub("\\\\", "/", input_dir)   # 把 Windows 的 \ 改成 /
 output_dir <- file.path(input_dir, "jpg")            # 轉檔輸出資料夾
